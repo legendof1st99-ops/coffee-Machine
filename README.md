@@ -1,10 +1,7 @@
 #Pannatorn Srita #683450056-9
 
-## Class Diagram
-
-```mermaid
 classDiagram
-    class Program {
+    class Form1 {
         +Main()
     }
 
@@ -13,7 +10,6 @@ classDiagram
         -int coffee
         -int milk
         -int chocolate
-        +CoffeeMachine()
         +MakeBlackCoffee()
         +MakeMocha()
         +MakeLatte()
@@ -21,7 +17,4 @@ classDiagram
         +ShowStock()
     }
 
-
-
-
-
+    Form1 --> CoffeeMachine
