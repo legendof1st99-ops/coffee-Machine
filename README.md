@@ -21,9 +21,15 @@ classDiagram
         +ShowStock()
     }
 
-    Program --> CoffeeMachine
 
+⚠️ สำคัญมาก  
+- ต้องมี ```mermaid  
+- ต้องปิด ``` ให้ครบ  
+- GitHub ถึงจะแสดงเป็นรูป
 
+---
+
+## อธิบาย Diagram แบบใช้เขียนรายงาน (เอาไปวางต่อได้)
 
 > โปรแกรมนี้ประกอบด้วย 2 คลาสหลัก ได้แก่ Program และ CoffeeMachine  
 > คลาส Program ทำหน้าที่เป็นเมนูหลักและรับค่าจากผู้ใช้  
@@ -37,6 +43,5 @@ classDiagram
 
 ```mermaid
 +Refill()
-
 
 
